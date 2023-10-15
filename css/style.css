@@ -315,6 +315,8 @@ Reset
     background-image: url('/img/stars.svg');
     background-size: 30%;
     background-position: left;
+  }
 
-
+  footer .row .col-small > h3 {
+    color: #7289da;
   }
