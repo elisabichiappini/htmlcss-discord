@@ -126,7 +126,7 @@ Reset
     background-color: white;
     padding: 10px 15px;
     color: black;
-    border-radius: 20px;
+    border-radius: 50px;
     font-size: 13px;
   }
   
@@ -141,6 +141,19 @@ Reset
     font-size: 18px;
   }
   
+  h1,
+  h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-weight: 700;
+  }
+
+  p {
+    line-height: 1.8;
+  }
   /*
   ************
   Header
@@ -196,9 +209,7 @@ Reset
   }
 
   div.content > p {
-    line-height: 1.8;
-    padding: 20px 120px;
-
+    padding: 0 120px 20px;
   }
 
   header .jumbotron a.btn {
@@ -233,12 +244,15 @@ Reset
   
   main .section .col-small {
     width: 40%;
+    color: #23272a;
+    padding-right: 120px;
   }
   
   main .section .col-full {
     flex-grow: 1;
   }
   
+ 
   /*
   ************
   Footer
