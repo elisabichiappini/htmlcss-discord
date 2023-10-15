@@ -187,26 +187,30 @@ Reset
   /* jumbotron */
   
   header .jumbotron {
-    padding: 110px;
+    padding: 120px 0;
     text-align: center;
     color: white;
     background-image: url('/img/jumbo.png');
     background-size: cover;
-    background-repeat: no-repeat;
+    background-position: top;
   }
 
   div.content > p {
     line-height: 1.8;
-    padding: 20px 0;
+    padding: 20px 120px;
+
   }
-  header a.btn {
+
+  header .jumbotron a.btn {
     font-size: 15px;
+    padding: 15px 20px;
   }
 
   header a.btn.btn-black {
     background-color: black;
     color: white;
     font-size: 15px;
+    margin-left: 10px;
   }
   
   /*
