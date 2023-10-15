@@ -151,6 +151,11 @@ Reset
     font-weight: 700;
   }
 
+  h3 {
+    font-size: 30px;
+    margin: 40px;
+  }
+
   p {
     line-height: 1.8;
   }
@@ -231,10 +236,10 @@ Reset
   */
   
   main .section {
-    padding: 50px;
+    padding: 100px 50px;
   }
   
-  main .section:nth-child(even) {
+  main :nth-child(even of .section) {
     background-color: var(--bg-section);
   }
   
@@ -246,13 +251,22 @@ Reset
     width: 40%;
     color: #23272a;
     padding-right: 120px;
+    padding-top: 30px;
   }
   
   main .section .col-full {
     flex-grow: 1;
   }
+
+  main .col-full {
+    text-align: center;
+  }
+
+  main .section.large .col-full > a.btn {
+    background-color: #93a4e1;
+    color: white;
+  }
   
- 
   /*
   ************
   Footer
@@ -295,4 +309,12 @@ Reset
   
   footer .footer-bottom .col {
     padding: 10px;
+  }
+
+  main .col-full h3 {
+    background-image: url('/img/stars.svg');
+    background-size: 30%;
+    background-position: left;
+
+
   }
