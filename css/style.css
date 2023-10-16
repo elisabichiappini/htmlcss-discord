@@ -258,15 +258,9 @@ Reset
     text-align: center;
   }
 
-  main .section.large .col-full > a.btn {
+  main .section.large .col-full .cta > a.btn {
     background-color: #93a4e1;
     color: white;
-  }
-
-  main .col-full h3 {
-    background-image: url('/img/stars.svg');
-    background-size: 30%;
-    background-position: left;
   }
   
   main .wave {
@@ -279,6 +273,12 @@ Reset
     transform: scale(1, -1);
   }
 
+  main .cta h3 {
+    background-image: url('/img/stars.svg');
+    padding: 40px;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
   /*
   ************
   Footer
