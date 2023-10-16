@@ -303,16 +303,17 @@ Reset
   footer .footer-top .col-big {
     width: 70%;
     display: flex;
+    justify-content: space-between;
   }
 
   footer .footer-top .col-big li {
     margin-bottom: 20px;
   }
   
-
+  /*  per l'allineamento dei link al margin-right
   footer .footer-top .col-big .col {
     flex-grow: 1;
-  }
+  } */
   
   footer .row .col-small > h4 {
     color: #7289da;
@@ -331,7 +332,6 @@ Reset
   }
 
   footer .row .col-small .language i {
-
     font-size: 14px;
   }
 
